@@ -3,7 +3,7 @@
 ## makeChaceMatrix is a function that create a special creates a special vector
 ## that can store the values of a matrix and cache the values of the matrix inverse.
 ##
-## It is a list of the following funxtions:
+## It is a list of the following functions:
 ## 1.  set: set the values of the matrix
 ## 2.  get: get the values of the matrix
 ## 3.  setinverse: set the values of the inverse of the matrix
@@ -33,8 +33,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve return the inverse of the matrix 'x'either taking it from the cache
-## or calculating it if not cached and storing it to cache afterward
+## cacheSolve return the inverse of the matrix either taking it from the cache
+## if available or calculating it and storing it to cache afterward
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'  
